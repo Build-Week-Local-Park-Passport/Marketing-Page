@@ -172,3 +172,12 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.container-body {
+  display: flex;
+  justify-content: center;
+  color: #006f5b;
+}
+.container-body .container .testimonials {
+  display: flex;
+  justify-content: flex-start;
+}
