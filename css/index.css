@@ -174,10 +174,19 @@ img {
 }
 .container-body {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   color: #006f5b;
 }
-.container-body .container .testimonials {
+.container-body .testimonials {
   display: flex;
+  flex-direction: column;
+}
+.container-body .testimonials .testimony {
+  display: flex;
+  flex-direction: column;
   justify-content: flex-start;
+}
+.container-body .testimonials .testimony .signature {
+  justify-content: flex-end;
 }
