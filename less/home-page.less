@@ -1,0 +1,69 @@
+.body-container {
+    width: 80%;
+    margin: 0px auto;
+
+    .main-top {
+        padding-top: 10%;
+    }
+
+    .main-features {
+        h2 {
+            text-align: center;
+        }
+
+        .feature-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .feature {
+                width: 25%;
+            }
+        }
+    }
+
+    .main-testimonials {
+        display: flex;
+        flex-direction: column;
+
+        .row1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            .test-container {
+                width: 40%;
+                display: flex;
+                flex-direction: row;
+            }
+        }
+
+        .row2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            .test-container {
+                width: 40%;
+                display: flex;
+                flex-direction: row-reverse;
+            }
+        }
+    }
+
+    .main-activities {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        line-height: 3;
+        font-size: 2rem;
+        color: @earth;
+
+        .activities-list {
+            width: 20%;
+        }
+    }
+
+}
+

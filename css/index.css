@@ -228,6 +228,60 @@ footer a {
   text-decoration: none;
   font-style: italic;
 }
+.body-container {
+  width: 80%;
+  margin: 0px auto;
+}
+.body-container .main-top {
+  padding-top: 10%;
+}
+.body-container .main-features h2 {
+  text-align: center;
+}
+.body-container .main-features .feature-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.body-container .main-features .feature-container .feature {
+  width: 25%;
+}
+.body-container .main-testimonials {
+  display: flex;
+  flex-direction: column;
+}
+.body-container .main-testimonials .row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.body-container .main-testimonials .row1 .test-container {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+}
+.body-container .main-testimonials .row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.body-container .main-testimonials .row2 .test-container {
+  width: 40%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.body-container .main-activities {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  line-height: 3;
+  font-size: 2rem;
+  color: #782e18;
+}
+.body-container .main-activities .activities-list {
+  width: 20%;
+}
 .container-body {
   display: flex;
   flex-direction: column;
