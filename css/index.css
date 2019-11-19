@@ -254,7 +254,7 @@ footer a {
   display: flex;
   flex-direction: column;
   align-self: stretch;
-  align-content: space-between;
+  justify-content: space-between;
   width: 50%;
   padding: 5%;
 }
@@ -262,12 +262,13 @@ footer a {
   .container-body .testimonials .testimony {
     display: flex;
     flex-direction: column;
-    width: 100%;
     padding: 5%;
+    width: 100%;
   }
 }
 .container-body .testimonials .testimony .signature {
   align-self: flex-end;
+  padding-top: 10px;
 }
 .container-body .reviews {
   display: flex;
