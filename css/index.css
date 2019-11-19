@@ -136,13 +136,6 @@ html,
 body {
   font-family: 'Raleway';
 }
-@media (max-width: 1000px) {
-  html,
-  body {
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-}
 a {
   text-decoration: none;
 }
@@ -184,13 +177,13 @@ img {
   flex-direction: column;
   align-items: center;
   color: #782e18;
-  background-color: #71f6d6;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 .container-body .testimonials {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 90%;
 }
 .container-body .testimonials .testimony {
   display: flex;
