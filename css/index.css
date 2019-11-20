@@ -375,23 +375,18 @@ footer a {
     width: 90%;
   }
 }
-.container-body-about h2 {
-  border: solid 1px black;
-}
 .container-body-about .our-team {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 0px;
-  border: solid 1px black;
 }
 .container-body-about .our-team .team-member {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 307px;
   padding: 2%;
-  border: solid 1px black;
 }
 .container-body-about .our-team .team-member img {
   padding-bottom: 4%;
