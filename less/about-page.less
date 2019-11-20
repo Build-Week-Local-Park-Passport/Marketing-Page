@@ -18,13 +18,25 @@
        flex-wrap: wrap;
        justify-content: center;
        padding-top: 0px;
+           border: 1px solid black;
+
 
        
        .team-member {
            display: flex;
            flex-direction: column;
-           width: 307px;
+           width: 398px;
            padding: 2%;
+           border: 1px solid black;
+
+           @media @desktop {
+               width: 50%;
+           }
+
+           @media @phone {
+               width: 100%;
+           }
+
 
 
            img {

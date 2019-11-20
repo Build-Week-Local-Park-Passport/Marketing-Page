@@ -381,12 +381,24 @@ footer a {
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 0px;
+  border: 1px solid black;
 }
 .container-body-about .our-team .team-member {
   display: flex;
   flex-direction: column;
-  width: 307px;
+  width: 398px;
   padding: 2%;
+  border: 1px solid black;
+}
+@media (max-width: 1000px) {
+  .container-body-about .our-team .team-member {
+    width: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .container-body-about .our-team .team-member {
+    width: 100%;
+  }
 }
 .container-body-about .our-team .team-member img {
   padding-bottom: 4%;
@@ -432,6 +444,7 @@ footer a {
 .container-body-testimonials .testimonials .testimony .signature {
   align-self: flex-end;
   padding-top: 10px;
+  font-weight: bold;
 }
 .container-body-testimonials .reviews {
   display: flex;
