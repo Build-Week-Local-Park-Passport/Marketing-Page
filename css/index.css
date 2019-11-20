@@ -360,7 +360,7 @@ footer a {
 .body-container .main-activities .activities-list {
   width: 20%;
 }
-.container-body {
+.container-body-about {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -370,34 +370,52 @@ footer a {
   padding-top: 12vh;
 }
 @media (max-width: 815px) {
-  .container-body {
+  .container-body-about {
     padding-top: 15vh;
     width: 90%;
   }
 }
-.container-body {
+.container-body-about h2 {
+  border: solid 1px black;
+}
+.container-body-about .our-team {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 0px;
+  border: solid 1px black;
+}
+.container-body-about .our-team .team-member {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 2%;
+  border: solid 1px black;
+}
+.container-body-testimonials {
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #782e18;
   width: 80%;
   margin: 0 auto;
-  padding-top: 12vh;
+  padding-top: 15vh;
 }
 @media (max-width: 815px) {
-  .container-body {
+  .container-body-testimonials {
     padding-top: 15vh;
     width: 90%;
   }
 }
-.container-body .testimonials {
+.container-body-testimonials .testimonials {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
 }
-.container-body .testimonials .testimony {
+.container-body-testimonials .testimonials .testimony {
   display: flex;
   flex-direction: column;
   align-self: stretch;
@@ -406,29 +424,29 @@ footer a {
   padding: 5%;
 }
 @media (max-width: 815px) {
-  .container-body .testimonials .testimony {
+  .container-body-testimonials .testimonials .testimony {
     display: flex;
     flex-direction: column;
     padding: 5%;
     width: 100%;
   }
 }
-.container-body .testimonials .testimony .signature {
+.container-body-testimonials .testimonials .testimony .signature {
   align-self: flex-end;
   padding-top: 10px;
 }
-.container-body .reviews {
+.container-body-testimonials .reviews {
   display: flex;
   flex-direction: column;
   align-items: stretch;
   width: 100%;
 }
-.container-body .reviews .member-reviews {
+.container-body-testimonials .reviews .member-reviews {
   border: solid 1px black;
   text-align: center;
   padding: 50px;
 }
-.container-body .sign-up {
+.container-body-testimonials .sign-up {
   text-decoration: none;
   background-color: #4b75b3;
   color: white;
@@ -440,7 +458,7 @@ footer a {
   border-radius: 10px;
   margin-bottom: 5vh;
 }
-.container-body .sign-up:hover {
+.container-body-testimonials .sign-up:hover {
   background-color: #782e18;
 }
 .body-container {
