@@ -291,6 +291,12 @@ footer a {
   margin: 0 auto;
   padding-top: 12vh;
 }
+@media (max-width: 815px) {
+  .container-body {
+    padding-top: 15vh;
+    width: 90%;
+  }
+}
 .container-body {
   display: flex;
   flex-direction: column;
