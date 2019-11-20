@@ -4,6 +4,26 @@
 
     .main-top {
         padding-top: 10%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+            max-width: 50%;
+        }
+
+        div {
+            max-width: 40%;
+            display: flex; 
+            flex-direction: column;
+            justify-content: space-between;
+
+            .sign-up {
+                .button();
+            }
+        }
+
     }
 
     .main-features {
@@ -26,6 +46,7 @@
     .main-testimonials {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
 
         .row1 {
             display: flex;
@@ -36,6 +57,15 @@
                 width: 40%;
                 display: flex;
                 flex-direction: row;
+
+                p, figure {
+                    padding: 2%;
+
+                    figcaption {
+                        font-size: 1.5rem;
+                    }
+
+                }
             }
         }
 
@@ -48,6 +78,14 @@
                 width: 40%;
                 display: flex;
                 flex-direction: row-reverse;
+
+                p, figure {
+                    padding: 2%;
+
+                    figcaption {
+                        font-size: 1.5rem;
+                    }
+                }
             }
         }
     }
