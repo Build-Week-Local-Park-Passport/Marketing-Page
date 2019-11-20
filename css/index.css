@@ -244,7 +244,7 @@ header .nav-container nav .sign-up {
 header .nav-container nav .sign-up:hover {
   background-color: #782e18;
 }
-@media (max-width: 800px) {
+@media (max-width: 815px) {
   header .nav-container {
     width: 90%;
   }
@@ -427,6 +427,21 @@ footer a {
   border: solid 1px black;
   text-align: center;
   padding: 50px;
+}
+.container-body .sign-up {
+  text-decoration: none;
+  background-color: #4b75b3;
+  color: white;
+  margin: 10px 20px;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.8rem;
+  border-radius: 10px;
+  margin-bottom: 5vh;
+}
+.container-body .sign-up:hover {
+  background-color: #782e18;
 }
 .body-container {
   width: 80%;
