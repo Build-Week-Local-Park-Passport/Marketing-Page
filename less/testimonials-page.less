@@ -1,11 +1,11 @@
-.container-body {
+.container-body-testimonials {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: @earth;
     width: 80%;
     margin: 0 auto;
-    padding-top: 12vh;
+    padding-top: 15vh;
 
     @media @tablet {
         padding-top: 15vh;
@@ -42,6 +42,7 @@
             .signature {
                 align-self: flex-end;
                 padding-top: 10px;
+                font-weight: bold;
             } //end signature
         }//end testimony
     }//end testimonials
@@ -51,7 +52,6 @@
         flex-direction: column;
         align-items: stretch;
         width: 100%;
-        
 
         .member-reviews{
             border: solid 1px black;
@@ -60,4 +60,9 @@
         }
 
     }//end reviews
+
+    .sign-up {
+        .button();
+        margin-bottom: 5vh;
+    }
 }//end container-body
