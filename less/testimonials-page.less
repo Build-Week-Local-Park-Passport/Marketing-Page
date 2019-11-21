@@ -1,40 +1,48 @@
-header {
-    nav {
-
-    }
-}
-.container-body {
+.container-body-testimonials {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: @earth;
-    max-width: 1000px;
+    width: 80%;
     margin: 0 auto;
+    padding-top: 15vh;
+
+    @media @tablet {
+        padding-top: 15vh;
+        width: 90%;
+    }
 
 
     .testimonials{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         align-items: center;
+        width: 100%;
         
 
         .testimony {
             display: flex;
             flex-direction: column;
             align-self: stretch;
-
-            @media @phone {
-
-            }//end phone
+            justify-content: space-between;
+            width: 50%;
+            padding: 5%;
 
             @media @tablet {
-
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                padding: 5%;
+                width: 100%;
             }// end tablet
 
 
 
             .signature {
                 align-self: flex-end;
+                padding-top: 10px;
+                font-weight: bold;
             } //end signature
         }//end testimony
     }//end testimonials
@@ -43,12 +51,18 @@ header {
         display: flex;
         flex-direction: column;
         align-items: stretch;
-        width: 90%;
+        width: 100%;
 
         .member-reviews{
             border: solid 1px black;
+            text-align: center;
             padding: 50px
         }
 
     }//end reviews
+
+    .sign-up {
+        .button();
+        margin-bottom: 5vh;
+    }
 }//end container-body

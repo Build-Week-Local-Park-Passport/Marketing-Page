@@ -166,11 +166,15 @@ h1 {
 }
 h2 {
   font-size: 4rem;
-  padding-bottom: 10px;
+  padding-bottom: 5%;
+  font-weight: 800;
+  text-align: center;
 }
 h3 {
   font-size: 3rem;
-  padding-bottom: 10px;
+  padding-bottom: 5%;
+  font-weight: 800;
+  text-align: center;
 }
 p {
   font-family: 'Merriweather';
@@ -243,7 +247,7 @@ header .nav-container nav .sign-up:hover {
 }
 @media (max-width: 500px) {
 }
-@media (max-width: 800px) {
+@media (max-width: 815px) {
   header .nav-container {
     width: 90%;
   }
@@ -253,7 +257,7 @@ header .nav-container nav .sign-up:hover {
     flex-direction: column;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 815px) {
   header {
     position: relative;
     margin-bottom: 0px;
@@ -286,7 +290,7 @@ footer a {
 .body-container .main-top img {
   max-width: 50%;
 }
-@media (max-width: 800px) {
+@media (max-width: 815px) {
   .body-container .main-top img {
     max-width: 80%;
     padding-top: 20%;
@@ -312,18 +316,18 @@ footer a {
 .body-container .main-top div .sign-up:hover {
   background-color: #782e18;
 }
-@media (max-width: 800px) {
+@media (max-width: 815px) {
   .body-container .main-top div {
     max-width: 80%;
     padding-top: 5%;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 815px) {
   .body-container .main-top {
     flex-direction: column;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 815px) {
   .body-container .main-top {
     padding-top: 0px;
   }
@@ -340,13 +344,13 @@ footer a {
 .body-container .main-features .feature-container .feature {
   width: 25%;
 }
-@media (max-width: 800px) {
+@media (max-width: 815px) {
   .body-container .main-features .feature-container .feature {
     width: 80%;
     padding-top: 5%;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 815px) {
   .body-container .main-features .feature-container {
     flex-direction: column;
   }
@@ -374,7 +378,7 @@ footer a {
 .body-container .main-testimonials .row1 .test-container figure figcaption {
   font-size: 1.5rem;
 }
-@media (max-width: 800px) {
+@media (max-width: 815px) {
   .body-container .main-testimonials .row1 .test-container {
     width: 80%;
   }
@@ -385,7 +389,7 @@ footer a {
     width: 90%;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 815px) {
   .body-container .main-testimonials .row1 {
     flex-direction: column;
   }
@@ -408,7 +412,7 @@ footer a {
 .body-container .main-testimonials .row2 .test-container figure figcaption {
   font-size: 1.5rem;
 }
-@media (max-width: 800px) {
+@media (max-width: 815px) {
   .body-container .main-testimonials .row2 .test-container {
     width: 80%;
   }
@@ -419,7 +423,7 @@ footer a {
     width: 90%;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 815px) {
   .body-container .main-testimonials .row2 {
     flex-direction: column;
   }
@@ -440,46 +444,125 @@ footer a {
 .body-container .main-activities .activities-column .activities-list {
   width: 40%;
 }
-@media (max-width: 800px) {
+@media (max-width: 815px) {
   .body-container .main-activities .activities-column .activities-list {
     width: 100%;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 815px) {
   .body-container .main-activities .activities-column {
     flex-direction: column;
   }
 }
-.container-body {
+.container-body-about {
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #782e18;
-  max-width: 1000px;
+  width: 80%;
   margin: 0 auto;
+  padding-top: 15vh;
 }
-.container-body .testimonials {
+@media (max-width: 815px) {
+  .container-body-about {
+    padding-top: 15vh;
+    width: 90%;
+  }
+}
+.container-body-about .our-team {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 0px;
+}
+.container-body-about .our-team .team-member {
+  display: flex;
+  flex-direction: column;
+  width: 398px;
+  padding: 2%;
+}
+@media (max-width: 1000px) {
+  .container-body-about .our-team .team-member {
+    width: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .container-body-about .our-team .team-member {
+    width: 100%;
+  }
+}
+.container-body-about .our-team .team-member img {
+  padding-bottom: 4%;
+}
+.container-body-testimonials {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #782e18;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 15vh;
 }
-.container-body .testimonials .testimony {
+@media (max-width: 815px) {
+  .container-body-testimonials {
+    padding-top: 15vh;
+    width: 90%;
+  }
+}
+.container-body-testimonials .testimonials {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+.container-body-testimonials .testimonials .testimony {
   display: flex;
   flex-direction: column;
   align-self: stretch;
+  justify-content: space-between;
+  width: 50%;
+  padding: 5%;
 }
-.container-body .testimonials .testimony .signature {
+@media (max-width: 815px) {
+  .container-body-testimonials .testimonials .testimony {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    width: 100%;
+  }
+}
+.container-body-testimonials .testimonials .testimony .signature {
   align-self: flex-end;
+  padding-top: 10px;
+  font-weight: bold;
 }
-.container-body .reviews {
+.container-body-testimonials .reviews {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  width: 90%;
+  width: 100%;
 }
-.container-body .reviews .member-reviews {
+.container-body-testimonials .reviews .member-reviews {
   border: solid 1px black;
+  text-align: center;
   padding: 50px;
+}
+.container-body-testimonials .sign-up {
+  text-decoration: none;
+  background-color: #4b75b3;
+  color: white;
+  margin: 10px 20px;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.8rem;
+  border-radius: 10px;
+  margin-bottom: 5vh;
+}
+.container-body-testimonials .sign-up:hover {
+  background-color: #782e18;
 }
 .body-container {
   width: 80%;
@@ -527,10 +610,26 @@ section .activity-container .activity h3 {
 .activities-top img {
   max-width: 50%;
 }
+@media (max-width: 815px) {
+  .activities-top img {
+    max-width: 100%;
+  }
+}
 .activities-top p {
   max-width: 30%;
 }
 .activities-top p span {
   font-weight: 800;
   font-size: 2.2rem;
+}
+@media (max-width: 815px) {
+  .activities-top p {
+    max-width: 100%;
+    padding-top: 5%;
+  }
+}
+@media (max-width: 815px) {
+  .activities-top {
+    flex-direction: column-reverse;
+  }
 }
