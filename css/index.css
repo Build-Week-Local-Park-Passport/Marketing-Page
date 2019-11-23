@@ -387,6 +387,7 @@ footer a {
   flex-direction: column;
   width: 398px;
   padding: 2%;
+  box-shadow: 5px 5px 10px grey;
 }
 @media (max-width: 1000px) {
   .container-body-about .our-team .team-member {
@@ -450,10 +451,24 @@ footer a {
   align-items: stretch;
   width: 100%;
 }
-.container-body-testimonials .reviews .member-reviews {
-  border: solid 1px black;
-  text-align: center;
-  padding: 50px;
+.container-body-testimonials .member-reviews {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container-body-testimonials .member-reviews .example-review {
+  width: 25%;
+}
+@media (max-width: 815px) {
+  .container-body-testimonials .member-reviews .example-review {
+    width: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .container-body-testimonials .member-reviews .example-review {
+    width: 100%;
+  }
 }
 .container-body-testimonials .sign-up {
   text-decoration: none;
