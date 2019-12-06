@@ -46,12 +46,25 @@ header {
                 .button();
                 border: solid white 2px;
             }
+
+            @media @phone {
+                //flex-direction: column;
+            }
         }
     
         @media @tablet {
             width: 90%;
         }
+
+        @media @phone {
+            flex-direction: column;
+        }
     
+    }
+
+    @media @tablet {
+        position: relative;
+        margin-bottom: 0px;
     }
 
 }
